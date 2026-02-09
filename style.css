@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+  padding: 25px;
+  background-color: #036939;
+/*   background-image: url("https://i.pinimg.com/600x315/87/21/f3/8721f3b993759a0a5e953e9417ac7e58.jpg"); */
+}
+
+.titan{
+  max-width: 600px; 
+  margin: 0 auto;
+  background: #8b928bff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.titan-img{
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+h1{
+  font-size: 4vw;
+}
+
+p{
+  font-size: 2vw;
+}
+
+.SIDE {
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(rgba(3, 105, 57), rgba(3, 66, 36) 50%);
+  border-radius: 42px;
+  border-width: 0;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  font-family: Quicksand,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: .04em;
+  line-height: 16px;
+  margin: 0;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+.SIDE:hover {
+  background-image: linear-gradient(#8b928B, #555955 50%);
+}
+
+@media (min-width: 768px) {
+  .SIDE {
+    font-size: 21px;
+    padding: 18px 34px;
+  }
+}
