@@ -15,13 +15,10 @@ button.onclick = function(){
   if(answer1 === "attack" && answer2 === "eldian"){
       alert("Eren's attack titan");
       button.addEventListener("click", function () {
-      attack.src = "eren.png";
+    alert("attack");
+      attack.src = "Eren.png";
+        text.innerHTML = "Attack Titan";
 
-      button.addEventListener("click", function () {
-      text.innerHTML = "attack titan"; 
-  alert("attack");
-  attack.src = "eren.png";
-  text.innerHTML = "attack titan";
 
 
 
@@ -65,6 +62,6 @@ button.onclick = function(){
 // });
 
     })
-  })
+  }
   };
-}
+
