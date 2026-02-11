@@ -21,11 +21,15 @@ body{
 }
 
 h1{
-  font-size: 4vw;
+  font-size: 8vw;
 }
 
 p{
-  font-size: 2vw;
+  font-size: 6vw;
+}
+
+.text{
+  font-size: 8vw;
 }
 
 .button {
@@ -64,4 +68,10 @@ p{
     font-size: 21px;
     padding: 18px 34px;
   }
+}
+
+.Armin-img{
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
