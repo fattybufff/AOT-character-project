@@ -7,7 +7,7 @@ body{
 }
 
 .titan{
-  max-width: 600px; 
+  max-width: 800px; 
   margin: 0 auto;
   background: #8b928bff;
   padding: 20px;
@@ -21,15 +21,15 @@ body{
 }
 
 h1{
-  font-size: 8vw;
-}
-
-p{
   font-size: 6vw;
 }
 
+p{
+  font-size: 4vw;
+}
+
 .text{
-  font-size: 8vw;
+  font-size: 6vw;
 }
 
 .button {
@@ -70,7 +70,7 @@ p{
   }
 }
 
-.Armin-img{
+.x{
   width: 100%;
   height: auto;
   border-radius: 4px;

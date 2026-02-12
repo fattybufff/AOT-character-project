@@ -26,17 +26,17 @@ button.onclick = function (){
     }else if (answer1 === "colossus" && answer2 === "eldian"){
       alert("Armin's colossus titan")
         x.src = "Armin.png";
-          // text.innerHTML = "Armin's Colossus Titan";
+          text.innerHTML = "Armin's Colossus Titan";
 
     }else if (answer1 === "colossus" && answer2 === "marlian"){
       alert("bertholdt's colossus titan")
         x.src = "bertholdt.png";
-          // text.innerHTML = "Bertholt's Colossus Titan";
+          text.innerHTML = "Bertholt's Colossus Titan";
 
     }else if (answer1 === "attack" && answer2 === "marlian"){
     console.log("Reiner's Armored Titan")
         x.src = "Reiner.png";
-        // text.innerHTML = "Reiner's Armored Titan";
+        text.innerHTML = "Reiner's Armored Titan";
     }
   };
 
