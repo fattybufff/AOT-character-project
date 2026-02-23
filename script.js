@@ -6,39 +6,29 @@ let text = document.querySelector(".text");
 let x = document.querySelector(".x");
 
 
-
-
-
-
-button.onclick = function (){
- alert("button check");
   
  let answer1 = input1.value;
-  alert(answer1);
+  (answer1);
   let answer2 = input2.value;
-  alert(answer2);
+  (answer2);
 
     if(answer1 === "attack" && answer2 === "eldian"){
-      alert("Eren's attack titan");
         x.src = "Eren.png";
           text.innerHTML = "Eren's Attack Titan";
 
     }else if (answer1 === "colossus" && answer2 === "eldian"){
-      alert("Armin's colossus titan")
         x.src = "Armin.png";
           text.innerHTML = "Armin's Colossus Titan";
 
     }else if (answer1 === "colossus" && answer2 === "marlian"){
-      alert("bertholdt's colossus titan")
         x.src = "bertholdt.png";
           text.innerHTML = "Bertholt's Colossus Titan";
 
     }else if (answer1 === "attack" && answer2 === "marlian"){
-    console.log("Reiner's Armored Titan")
         x.src = "Reiner.png";
         text.innerHTML = "Reiner's Armored Titan";
-    }
-  };
+      };
+    
 
 
 
